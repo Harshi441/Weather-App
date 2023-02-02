@@ -1,38 +1,41 @@
-.App {
+.WeatherBG{
+  background: url("https://thenextcrossing.com/wp-content/uploads/2020/11/Kenya-4887-HDR-1.jpg");
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  height: 43vh;
+  width: 200vh;
+  justify-content: center;
+  align-items: center;
+}
+.heading-1{
+  text-align: center;
+  align-items: center;
+ color: white;
+ font-weight: bolder;
+ font-size: 300%;
+}
+.Weatherbox{
+  margin: auto;
+  height: 450px ;
+  width: 500px;
+  background-color: white;
+  border-radius: 50%;
+  /* box-shadow: 60%; */
+}
+.image-2{
+  height: 20vh;
+  width: 25vh;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: center;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+.weather-city{
+  font-size: 40px;
+  font-weight: 350;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather-temp{
+  font-size: 50px;
+  font-weight: bolder;
 }
